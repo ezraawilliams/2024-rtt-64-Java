@@ -1,6 +1,7 @@
 package org.percholas.introtojava;
 
 public class JavaCastingExample {
+    static String name;
     public static void main(String[] args) {
         //Explicit type casting - we assign a value of a LARGER data type with a smaller TYPE
         int x;
@@ -37,5 +38,9 @@ public class JavaCastingExample {
         //Constant remains constant and we use the final keyword
         final String HER_NAME = "Surbhi";
         //HER_NAME="Asiya";
+        System.out.println(name);
+
+        String name1;
+       // System.out.println(name1);
     }
 }
