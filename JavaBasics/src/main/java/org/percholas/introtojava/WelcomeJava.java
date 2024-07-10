@@ -17,6 +17,7 @@ public class WelcomeJava {
 
 
     public static void myMethod(){
+        System.out.println("Welcome to Java!");
 
     }
 }
