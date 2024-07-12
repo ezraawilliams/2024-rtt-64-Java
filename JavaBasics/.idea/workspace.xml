@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad2bfda7-7b3a-414c-a736-50d48f9d430a" name="Changes" comment="First commit - 7/10/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/OperatorsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/ScannerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/TimeConverter.java" afterDir="false" />
+    <list default="true" id="ad2bfda7-7b3a-414c-a736-50d48f9d430a" name="Changes" comment="Second commit - 7/10/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/FormatExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/MonetaryUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/StringBufferEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/StringJoinerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/JavaCastingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/percholas/introtojava/JavaCastingExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +49,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CharacterEx.executor": "Run",
     "Application.DataTypeDemo.executor": "Run",
+    "Application.FormatExamples.executor": "Run",
     "Application.JavaCastingExample.executor": "Run",
+    "Application.MonetaryUnits.executor": "Run",
     "Application.OperatorsExample.executor": "Debug",
     "Application.ScannerExample.executor": "Run",
+    "Application.StringBufferEx.executor": "Run",
+    "Application.StringDemo.executor": "Run",
+    "Application.StringJoinerDemo.executor": "Run",
     "Application.TimeConverter.executor": "Run",
     "Application.WelcomeJava.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,6 +73,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="CharacterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.percholas.introtojava.CharacterEx" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.percholas.introtojava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.percholas.introtojava.DataTypeDemo" />
       <module name="JavaBasics" />
@@ -93,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WelcomeJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introtojava.WelcomeJava" />
+    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.percholas.introtojava.StringBufferEx" />
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="introtojava.*" />
+          <option name="PATTERN" value="org.percholas.introtojava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.percholas.introtojava.StringDemo" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.percholas.introtojava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferEx" />
+        <item itemvalue="Application.StringDemo" />
+        <item itemvalue="Application.CharacterEx" />
         <item itemvalue="Application.JavaCastingExample" />
         <item itemvalue="Application.DataTypeDemo" />
-        <item itemvalue="Application.WelcomeJava" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +166,8 @@
       <updated>1720534818280</updated>
       <workItem from="1720534819249" duration="11102000" />
       <workItem from="1720551385380" duration="4721000" />
-      <workItem from="1720616325899" duration="9438000" />
+      <workItem from="1720616325899" duration="20326000" />
+      <workItem from="1720789192742" duration="12011000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - 7/10/2024">
       <option name="closed" value="true" />
@@ -142,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720617156913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit - 7/10/2024">
+      <option name="closed" value="true" />
+      <created>1720630803095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720630803095</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second commit - 7/10/2024">
+      <option name="closed" value="true" />
+      <created>1720640379107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720640379107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,10 +201,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit - 7/10/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit - 7/10/2024" />
+    <MESSAGE value="Second commit - 7/10/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit - 7/10/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/percholas/introtojava/WrapperClassesEx.java</url>
+          <line>12</line>
+          <properties field="i" class="org.percholas.introtojava.WrapperClassesEx" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>
