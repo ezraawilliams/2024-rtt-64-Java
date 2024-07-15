@@ -49,9 +49,5 @@ public class MonetaryUnits {
      int pennyAmount = (int) (change/PENNY);
      System.out.println(pennyAmount);
 
-
-
-     
-
     }
 }
