@@ -19,7 +19,7 @@ public class MonetaryUnits {
      Scanner input = new Scanner(System.in);
      double money = input.nextDouble();
 
-     
+
 
 
      final int DOLLAR = 1;
@@ -33,15 +33,22 @@ public class MonetaryUnits {
 
      double change = money - dollarAmount;
      int quarterAmount = (int) (change / QUARTER);
-     
+     System.out.println(quarterAmount);
+
      // change = change % QUARTER
      change -= (quarterAmount * QUARTER);
-  
+
      int dimeAmount = (int) (change / DIME);
+     System.out.println(dimeAmount);
+
      change -= (dimeAmount * DIME);
      int nickelAmount = (int) (change/NICKEL);
+     System.out.println(nickelAmount);
+
      change -= (nickelAmount * NICKEL);
      int pennyAmount = (int) (change/PENNY);
+     System.out.println(pennyAmount);
+
 
 
      
