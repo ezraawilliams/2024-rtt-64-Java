@@ -22,7 +22,7 @@ public class CharacterEx {
         // isletter method determines wheather the specified char value is letter
         System.out.println(Obj1.isLetter(Obj2));
         System.out.println("----isDigit() -------");
-        // isDiggit() determin whether the specified char value is a digit
+        // isDigit() determine whether the specified char value is a digit
         System.out.println( Obj2.isDigit(Obj1));
         Obj1.valueOf('A');   // Obj1 = 'A'
         System.out.println("----compareTo-------");

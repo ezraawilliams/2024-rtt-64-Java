@@ -12,7 +12,7 @@ public class WelcomeJava {
 
         String firstName;
         final int NUMBER = 100;
-
+        Student myStudent = new Student();
     }
 
 
