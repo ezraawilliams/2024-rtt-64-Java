@@ -3,7 +3,7 @@ package org.percholas.introtojava;
 public class StudentDriver {
     public static void main(String[] args) {
         /*String name = "Per Scholas";
-        Student.schoolName= name;*/
+        Student.schoolName= name
         //Create a student object/instance :
         Student student = new Student();//using my no args constructor
         student.setFirstName("John");
@@ -26,7 +26,28 @@ public class StudentDriver {
         matriculatedStudent.setGrade(90);
         matriculatedStudent.setSocialSecurityNumber(1234567810);
         matriculatedStudent.setEnrolled(true);
-        System.out.println(matriculatedStudent.fullName());
+        System.out.println(matriculatedStudent.fullName());;*/
+        
+        /*
+        Upcasting is casting from a subclass to a superclass; usually that
+        is implicitly performed by the compiler. It is also closely related to
+        inheritance.
+         */
+        // Parent parentObject = new ChildConstructor();
+        Student student = new MatriculatedStudent();
+        MatriculatedStudent matriculatedStudent = new MatriculatedStudent();
+        /*
+        Downcasting - casting from a superclass to a subclass. It cannot be
+        performed directly - the compiler issues an error
+         */
+        Student student2 = null;
+        MatriculatedStudent matriculatedStudent2 = (MatriculatedStudent) student2;
+
+        //Instance of:
+        System.out.println(student instanceof MatriculatedStudent);
+        System.out.println(matriculatedStudent instanceof Student);
+        System.out.println(student2 instanceof MatriculatedStudent);
+        System.out.println(matriculatedStudent2 instanceof  Student);
 
     }
     public static void printStudentInfo(Student student) {
